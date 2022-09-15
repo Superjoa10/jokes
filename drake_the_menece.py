@@ -3,20 +3,20 @@ from PIL import ImageTk,Image
 from winsound import *
 root = Tk()
 root.title("mini drake, the menece")
-root.iconbitmap("lesgo.ico")
+root.iconbitmap("images_n_files/lesgo.ico")
 # for a  button to quit shit
 def image_open():
     global my_img
     global play
-    my_img = ImageTk.PhotoImage(Image.open("download.jpg"))
+    my_img = ImageTk.PhotoImage(Image.open("images_n_files/minidrake.jpg"))
     my_label = Label(image=my_img)
     corno = my_label.pack()
-    play =  PlaySound('movie_1.wav', SND_FILENAME)
+    play =  PlaySound('images_n_files/bruh_soudeffect.wav', SND_FILENAME)
     return corno, play
     
 def sound():
     global play
-    play = lambda: PlaySound('movie_1.wav', SND_FILENAME)
+    play = lambda: PlaySound('images_n_files/bruh_soudeffect.wav', SND_FILENAME)
     return play
 
 button_2 = Button(root, text = 'open', command=lambda: image_open())
