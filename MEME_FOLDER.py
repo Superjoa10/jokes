@@ -5,11 +5,11 @@ root.title("Lol u gay")
 root.iconbitmap("C:/Users/João/Pictures/lesgo.ico")
 # for a  button to quit shit
 
-my_img1 = ImageTk.PhotoImage(Image.open("download.jpg"))
-my_img2 = ImageTk.PhotoImage(Image.open("lesgo.jpg"))
-my_img3 = ImageTk.PhotoImage(Image.open("faces.jpeg"))
-my_img4 = ImageTk.PhotoImage(Image.open("download (1).jpg"))
-my_img5 = ImageTk.PhotoImage(Image.open("3897338.jpg"))
+my_img1 = ImageTk.PhotoImage(Image.open("images_n_files/minidrake.jpg"))
+my_img2 = ImageTk.PhotoImage(Image.open("images_n_files/lesgo.jpg"))
+my_img3 = ImageTk.PhotoImage(Image.open("images_n_files/faces.jpeg"))
+my_img4 = ImageTk.PhotoImage(Image.open("images_n_files/old.jpg"))
+my_img5 = ImageTk.PhotoImage(Image.open("images_n_files/guts_sama.jpg"))
 
 image_list = [my_img1,my_img2,my_img3,my_img4,my_img5]
 
